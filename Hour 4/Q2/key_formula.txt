@@ -1,0 +1,33 @@
+Problem statement
+You are provided with 3 numbers: input1, input2, and input3. Each of these is four-digit numbers within the range >=1000 and<=9999 i.e. 
+1000 <= input1 <= 9999 
+1000 <= input2 <= 9999 
+1000 <= input3 <= 9999 
+You are expected to find the Key using the below formula 
+Key = 
+    [SMALLEST digit in the thousands place of all three numbers] 
+    [LARGEST digit in the hundreds place of all three numbers] 
+    [SMALLEST digit in the tens place of all three numbers] 
+    [LARGEST digit in the units place of all three numbers]
+Given three numbers, write an algorithm to find the key using the above-mentioned formula.
+
+Example 
+
+Input
+3521 2452 1352
+
+Output
+1522
+
+Explanation
+Key = [smallest digit in the thousands place of all three numbers] [LARGEST digit in the hundreds place of all three numbers]
+[smallest digit in the tens place of all three numbers] [LARGEST digit in the units place of all three numbers] 
+If input1 = 3521, input2=2452, input3-1352, then Key = [1][5][2][2] = 1522.
+
+Input Format
+The input consists of three space-separated integers - input1, input2 and input3 representing the three four-digit numbers.
+
+Output Format
+Print an integer representing the concatenation of four digits where the first digit represents the smallest digit in the thousands place of all
+three numbers; the second digit represents the largest digit in the hundreds place of all three numbers; the third digit represents the smallest
+digit in the tens place of all three numbers and the fourth digit represents the largest digit in the units place of all three numbers
