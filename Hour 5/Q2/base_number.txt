@@ -1,0 +1,48 @@
+Problem statement
+Base number
+The alphabetical order of letters is their base number. i.e , base number of A=1,B=2,C=3,D=4 and so on.
+Implement the given function
+Static string decodemessage(string msg){ }
+The function accepts a string ‘msg’ as its argument. ‘msg’ contains an encoded message, where encoded characters are separated
+with a space. Implement the function to find and return the decoded message that has been encoded as follows:
+Each letter was converted to its base number
+A space is converted to an underscore( _ )
+number is preceded by the number symbol ( # )
+Note
+[1]   Return all letters in upper case
+[2]   Return space in decoded message only when underscore symbol ( _ ) appears in ‘msg’
+[3]   If ‘msg’ is empty or “NULL” return “NULL”.
+
+Example
+
+Input
+2 1 4 _ 3 1 20 @ # 459
+
+Output
+BAD CAT @459
+
+Explanation
+
+Encoded                             Decoded
+2                                             B
+1                                             A
+4                                             D
+_                                            
+3                                             C
+1                                             A
+20                                            T
+_
+@                                             @
+# 459                                         459
+
+Thus output is BAD CAT @459
+
+Input Format
+Input string represents encoded message.
+
+Output Format
+Display decoded message.
+
+Constraints
+Length of the decoded string will always be less than or equal to the given string length.
+Decoded message will not contain underscore( _ ) and symbol ( # )
