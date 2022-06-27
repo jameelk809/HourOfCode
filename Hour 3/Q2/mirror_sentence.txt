@@ -1,0 +1,34 @@
+Mirror sentence
+Problem statement
+You are given a string S containing a sentence.
+Write a program to reverse the order of occurrence of words in the sentence.
+Note
+You need to ensure that all words are followed by a single " " in your output
+
+Example 1
+
+Input
+Hello world
+
+Output
+world Hello
+
+Explanation
+The order of occurrence has been reversed while keeping the individual words the same.
+
+Example 2
+
+Input
+Coding is awesome
+
+Output
+awesome is Coding
+
+Explanation
+The order of occurrence has been reversed while keeping the individual words the same.
+
+Input Format
+The first line contains a string, S denoting the given string
+
+Output Format
+The output prints a string denoting the new sentence in reverse order of occurrence of words.
