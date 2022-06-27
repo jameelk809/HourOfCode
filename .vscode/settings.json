@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "algorithm": "cpp",
-        "ostream": "cpp",
-        "system_error": "c"
-    }
-}
