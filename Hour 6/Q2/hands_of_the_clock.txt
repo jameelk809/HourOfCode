@@ -1,7 +1,6 @@
 Problem statement
 You are given a string input time = 'AB:CD' where AB denotes the hours from 00 to 12 and CD denotes the minutes from 00 to 59, in
-a 12-hour format. 
-Your task is to write a program to calculate the smallest angle between the hour hand and the minute hand of a clock, for the given
+a 12-hour format. Your task is to write a program to calculate the smallest angle between the hour hand and the minute hand of a clock, for the given
 time.
 
 Note
