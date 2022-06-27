@@ -13,4 +13,5 @@ int main(){
             count++;
     }
     cout<<(count*100/len);
+    return 0;
 }
