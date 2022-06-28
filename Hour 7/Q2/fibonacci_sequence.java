@@ -9,7 +9,7 @@ public class fibonacci_sequence {
             for(i = 0; i < n; i++)
                 arr[i] = sc.nextInt();
             for (int x : arr) {
-                if(is_Fibonacci(x)==true)
+                if(is_Fibonacci(x))
                     count++;
             }
             System.out.print(count);
