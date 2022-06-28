@@ -1,4 +1,5 @@
 Adjacent XOR
+
 Problem statement
 You are given an integer input num.
 Write a program to perform the following operations
@@ -8,21 +9,32 @@ Write a program to perform the following operations
 3. Obtain X by converting Y to a Decimal form.
 Your task is to return the value of x.
 [NOTE - Apply bitwise XOR operation of the Least Significant Bit (LSB) with 1 in Z].
+
 Example 1
+
 Input 
 013
+
 Output
 6
+
 Explanation
 6 was obtained as the result after applying all the operations on num = 013
+
+
 Example 2
+
 Input
 649
+
 Output
 922
+
 Explanation
 922 was obtained as the result after applying all the operations on num = 649
+
 Input Format
 The first line contains an integer, num.
+
 Output Format
 The output denotes an integer value
